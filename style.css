@@ -1,0 +1,66 @@
+body {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    background: url(https://images.pexels.com/photos/10638069/pexels-photo-10638069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#name-h {
+    font-family: 'Zeyada';
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    margin-right: 60%;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+#lin {
+    font-weight: bold;
+    color: white;
+}
+
+#lin:hover {
+    background: white;
+    transition: .5s;
+    color: #89b400;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px white;
+
+
+}
+
+
+.navbar-custom {
+    background-color: #89b400;
+    height: 70px;
+}
+
+.mainn {
+    /* padding: 2rem; */
+    position: relative;
+    background-color: #89b40078;
+    border-radius: 2rem;
+}
+
+#myform {
+    margin-top: 5rem;
+}
+
+.but {
+
+    color: #89b400;
+    background-color: white;
+    margin-left: 9rem;
+}
+
+.radio1 {
+    margin-top: 40px;
+}
+
+
+.foot {
+
+    margin-top: 15rem;
+}
