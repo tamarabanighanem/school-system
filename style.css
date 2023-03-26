@@ -38,9 +38,9 @@ body {
 }
 
 .mainn {
-    /* padding: 2rem; */
-    position: relative;
-    background-color: #89b40078;
+    padding: 2rem;
+    /* position: relative; */
+    background-color: #fafafa5c;
     border-radius: 2rem;
 }
 
