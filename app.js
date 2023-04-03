@@ -5,11 +5,10 @@ if (localStorage.arrData != null) {
 }
 
 let form = document.getElementById("myform");
-let divcont = document.getElementById("stdinfo");
 form.addEventListener("submit", handeleSubmit);
 
 function handeleSubmit(event) {
-    event.preventDefault();
+    // event.preventDefault();
     let firstrname = event.target.fname.value;
     let gradee = event.target.grade.value;
     let phonee = event.target.phone.value;
@@ -41,10 +40,10 @@ function Student(firstrname, gradee, phonee, gender, bairthday, imgg, sel) {
 }
 function render() {
     for (let i = 0; i < arrData.length; i++) {
-        // let stdinfoo = document.getElementById('stdinfo');
+        let divcont = document.getElementById("stdinfo");
         let std = document.createElement('div');
         let img1 = document.createElement('img');
-        img1.src = `${arrData[i].img}`;
+        img1.src = `${arrData[i].imgg}`;
         let ul = document.createElement('ul');
         let li1 = document.createElement('li');
         li1.textContent = `Name: ${arrData[i].firstrname}`;
@@ -64,7 +63,7 @@ function render() {
         std.appendChild(img1);
         std.appendChild(ul);
         divcont.appendChild(std);
-        form.reset();
+        // form.reset();
 
     }
 }
